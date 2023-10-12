@@ -33,3 +33,9 @@ obj/
 *.vbw
 *.vspscc
 
+# ignorar pastas
+
+vs
+ConsoleApp1/FileContentIndex
+ProjectEvaluation
+stringbuilder-project/v17
