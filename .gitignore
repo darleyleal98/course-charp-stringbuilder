@@ -1,0 +1,9 @@
+# Ignorar arquivos binários
+*.dll
+*.exe
+
+# Ignorar a pasta obj/
+obj/
+
+# Ignorar a pasta bin/
+bin/
