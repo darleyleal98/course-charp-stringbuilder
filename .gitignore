@@ -24,4 +24,5 @@ obj/
 *.vspscc
 
 # Ignorar a pasta 'vs/' (se necessário)
-vs/
+.vs/StringBuilder/FileContentIndex
+.vs
