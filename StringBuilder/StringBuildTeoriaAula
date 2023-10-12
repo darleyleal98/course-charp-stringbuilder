@@ -28,6 +28,5 @@ public override string ToString()
     {
         builder.AppendLine(comment.Text);
     }
-
-
+    return builder.ToString();
 }
