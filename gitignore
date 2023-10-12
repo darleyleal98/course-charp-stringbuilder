@@ -1,0 +1,4 @@
+# Ignorar todos os arquivos, exceto arquivos .cs (C#) e .txt
+*
+!*.cs
+!*.txt
