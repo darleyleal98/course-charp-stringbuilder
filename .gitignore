@@ -1,20 +1,6 @@
 # Ignorar arquivos binários
 *.dll
 *.exe
-
-# Ignorar a pasta obj/
-obj/
-
-# Ignorar a pasta bin/
-bin/
-
-# Ignorar pastas e arquivos gerados pelo .NET
-bin/
-obj/
-
-# Ignorar arquivos de compilação C#
-*.dll
-*.exe
 *.pdb
 *.log
 *.zip
@@ -29,13 +15,13 @@ obj/
 *.nupkg
 *.nuspec
 
+# Ignorar pastas geradas pelo .NET
+bin/
+obj/
+
 # Ignorar arquivos de compilação VB.NET
 *.vbw
 *.vspscc
 
-# ignorar pastas
-
-vs
-ConsoleApp1/FileContentIndex
-ProjectEvaluation
-stringbuilder-project/v17
+# Ignorar a pasta 'vs/' (se necessário)
+vs/
