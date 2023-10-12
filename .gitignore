@@ -7,3 +7,29 @@ obj/
 
 # Ignorar a pasta bin/
 bin/
+
+# Ignorar pastas e arquivos gerados pelo .NET
+bin/
+obj/
+
+# Ignorar arquivos de compilação C#
+*.dll
+*.exe
+*.pdb
+*.log
+*.zip
+*.swp
+*.suo
+*.user
+*.sln.docstates
+*_i.c
+*_p.c
+*.ilk
+*.aps
+*.nupkg
+*.nuspec
+
+# Ignorar arquivos de compilação VB.NET
+*.vbw
+*.vspscc
+
