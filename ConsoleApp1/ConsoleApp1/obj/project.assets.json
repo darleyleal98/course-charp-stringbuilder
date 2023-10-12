@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\darle\\Desktop\\StringBuilder\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\darle\\Desktop\\StringBuilder\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\darle\\Desktop\\StringBuilder\\ConsoleApp1\\ConsoleApp1\\StringBuilder.csproj",
+      "projectName": "StringBuilder",
+      "projectPath": "C:\\Users\\darle\\Desktop\\StringBuilder\\ConsoleApp1\\ConsoleApp1\\StringBuilder.csproj",
       "packagesPath": "C:\\Users\\darle\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\darle\\Desktop\\StringBuilder\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
