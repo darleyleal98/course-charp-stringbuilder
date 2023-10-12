@@ -1,4 +1,33 @@
 O springbuild é mais performático para imprimir os dados de um objeto no ToString()
 exemplo de código como referência:
 
+/// sem SpringBuild:
 
+        public override string ToString()
+        {
+            return $"Moment: {Moment} \n" +
+                   $"Title: {Title} \n" +
+                   $"Content: {Content} \n" +
+                   $"Likes: {Likes} \n";
+        }
+
+
+/// Com: 
+
+public override string ToString()
+{
+    StringBuilder builder = new SpringBuilder();
+    builder.AppendLine(Title);
+    builder.Append(Likes);
+    builder.Append(" Likes - ");
+    builder.AppendLine(Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+    builder.AppendLine(Content);
+    builder.AppendLine("Comments: ")
+
+    foreach ( Comment comment in Comments ) 
+    {
+        builder.AppendLine(comment.Text);
+    }
+
+
+}
