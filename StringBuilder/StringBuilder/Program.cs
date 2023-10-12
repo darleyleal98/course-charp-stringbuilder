@@ -16,6 +16,7 @@ namespace StringBuilderProject
             post1.Title = "Traveling to New Zealand";
             post1.Content = "I'm going to visit this wonderful country";
             post1.Likes = 12;
+            
             post1.AddComment(new Comment("Have a nice trip"));
             post1.AddComment(new Comment("Wow that's awesome!"));
 
@@ -26,6 +27,7 @@ namespace StringBuilderProject
             {
                 Console.WriteLine(comment.ToString());
             }
+            
             Console.WriteLine();
 
             var post2 = new Post();
